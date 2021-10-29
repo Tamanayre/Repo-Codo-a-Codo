@@ -1,43 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <title>Practica1</title>
-    <link rel="icon" href="D:\Desktop\Demo\GatoICON.jpeg">
+    <title>Tamanayre</title>
+    <link rel="icon" href="D:\Desktop\Demo\CAC\Repo-Codo-a-Codo\Imagenes\Logo.jpg">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://kit.fontawesome.com/3451b83856.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <nav><a href="file:///D:/Desktop/Demo/CAC/INDEX%20HTML.html">HOME</a> / <a href="file:///D:/Desktop/Demo/CAC/HTMLAcerca%20de.html"> Acerca de</a> / <a href="file:///D:/Desktop/Demo/CAC/HTMLFormulario.html">Registrate con nosotros</a> / <a href="file:///D:/Desktop/Demo/CAC/HTMLcontactos.html" > Contactos</a></nav> /
-    <h1 style=text-align:center>Formulario de registro de la Practica 1</h1>
-    <form action="show_data.html" target="blanck">
-    <label for="fistname">Nombre:</label> <input type="text" name="fistname" placeholder="Ingrese su nopmbre"><br><br>
-    <label for="lastname">Apellido:</label> <input type="text" name="lastname" placeholder="Ingrese su apellido"><br><br>
-    <label for="streed">Direccion:</label> <input type="text" name="streed" placeholder="Direccion de habitacion"><br><br>
-    <label for="city"> Ciudad:</label> <input type="text" name="city" value="C.A.B.A."><br><br>
-    <label for="zipcode"> Codigo Postal:</label> <input type="text" name="zipcode"placeholder="Ingrese codigo postal"> <br><br>
-    <label for="birthdate"> Fecha de nacimiento:</label> <input type="text" name="birthname">
-    <p> Género
-        <input type="radio" name="gender" value="hombre" checked> Hombre
-        <input type="radio" namme="gender" value="mujer"> Mujer
-        <input type="radio" name="gender" value= "otro">  Otro
-    </p>
-    <p>Estudios
-        <input type="checkbox" name="estudio" value="primario"> Primario
-        <input type="checkbox" name="estudio" value="secundario"> Secundario
-        <input type="checkbox" name="estudio" value="ter,ciario"> Terciario
-        <input type="checkbox" name="estudio" value="universitario"> Universitario
-    </p>
-    <p>
-        <input type="submit" value="Enviar">
-    </p>
+    <header>
+        <nav><a class="nav" href="file:///D:/Desktop/Demo/CAC/Repo-Codo-a-Codo/INDEX%20HTML.html">HOME</a> /
+            <a class="nav" href="file:///D:/Desktop/Demo/CAC/Repo-Codo-a-Codo/HTMLcontenido.html">Contenido</a> /
+            <a class="nav" href="file:///D:/Desktop/Demo/CAC/Repo-Codo-a-Codo/HTMLAcerca%20de.html"> Acerca de</a> /
+            <a class="nav" href="file:///D:/Desktop/Demo/CAC/Repo-Codo-a-Codo/HTMLFormulario.html">Registrate con nosotros</a> /
+            <a class="nav" href="file:///D:/Desktop/Demo/CAC/Repo-Codo-a-Codo/HTMLcontactos.html"> Contactos</a>
+        </nav>
+        <h1 class="animate__animated animate__hinge">Formulario de registro</h1>
+    </header>
+    <div id="id_fomr">
+        <form action="show_data.html" target="blanck">
+            <label for="fistname">Nombre:</label> <input type="text" name="fistname"
+                placeholder="Ingrese su nopmbre"><br><br>
+            <label for="lastname">Apellido:</label> <input type="text" name="lastname"
+                placeholder="Ingrese su apellido"><br><br>
+            <label for="streed">Direccion:</label> <input type="text" name="streed"
+                placeholder="Direccion de habitacion"><br><br>
+            <label for="city"> Ciudad:</label> <input type="text" name="city" value="C.A.B.A."><br><br>
+            <label for="zipcode"> Codigo Postal:</label> <input type="text" name="zipcode"
+                placeholder="Ingrese codigo postal"> <br><br>
+            <label for="birthdate"> Fecha de nacimiento:</label> <input type="text" name="birthname">
+            <p> Género
+                <input type="radio" name="gender" value="hombre" checked> Hombre
+                <input type="radio" namme="gender" value="mujer"> Mujer
+                <input type="radio" name="gender" value="otro"> Otro
+            </p>
+            <p>Estudios
+                <input type="checkbox" name="estudio" value="primario"> Primario
+                <input type="checkbox" name="estudio" value="secundario"> Secundario
+                <input type="checkbox" name="estudio" value="ter,ciario"> Terciario
+                <input type="checkbox" name="estudio" value="universitario"> Universitario
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
 
-    </form>
+        </form>
+    </div>
 
-    
+
 </body>
-<footer style=text-align:center>    
-    <a href="https://www.linkedin.com/feed/" target="blank"><i class="fab fa-linkedin"></i></i></a> 
-    <a href= "https://www.facebook.com/" target="blank"><i class="fab fa-facebook-square"></i></a>
-    <a href="https://twitter.com/" target="black"><i class="fab fa-twitter-square"></i></a>
-    <p> Derechos de autor. Practica 1 Comision 119</p>
+<footer>
+    <a class="pies" href="https://www.linkedin.com/feed/" target="blank"><i class="fab fa-linkedin"></i></i></a>
+    <a class="pies" href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-square"></i></a>
+    <a class="pies" href="https://twitter.com/" target="black"><i class="fab fa-twitter-square"></i></a>
+    <p> Derechos de autor. 2021 Comision 119</p>
+
 </html>
